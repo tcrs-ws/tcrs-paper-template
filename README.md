@@ -24,7 +24,7 @@ To remove all the generated files, run `make clean`.
 Should you want to push edits to your paper to a private repository, perform the following steps:
 1. Go to your GitHub page and create a new private repository **without any initialization**. Do not check the "Add a README" box, and do not specify a `.gitignore` template or license.
 2. Remove the original remote from your clone using `git remote rm origin`.
-3. Add your new repository as a remote by using `git remote add origin <URL>` where `<URL>` is something like `git@github.com:<username>/<repo-name>.git`.
+3. Add your new repository as a remote by using `git remote add origin <URL>` where `<URL>` is something like `git@github.com:<username>/<repo-name>.git`. Note: running `git push` might prompt you to add the `--set-upstream origin main` flag.
 
 ### Optional: Changing the name of `main.tex`
 Should you want to change the main of the main LaTeX file, perform the following steps:
