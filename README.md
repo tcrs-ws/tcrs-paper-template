@@ -35,7 +35,7 @@ git mv template.tex <some-new-name>.tex
 ```
 2. Change the first line of `Makefile` to:
 ```
-PACKAGE="<some-new-name>"
+MAIN="<some-new-name>"
 ```
 3. Ensure that the pre-configured `.gitignore` file is properly configured. Specifically, ensure that your generated PDF called `<some-new-name>.pdf` is on the ignore list.
 
