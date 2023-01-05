@@ -3,9 +3,7 @@ This template is based on `samples/sample-acm-sigconf.tex` in the
 `acmart-primary` package that is available for download from the [ACM
 website](https://authors.acm.org/proceedings/production-information/preparing-your-article-with-latex).
 The fictional author names and CCS concepts featured in this template are
-inherited from the material provided by the ACM. The copyright terms that apply
-to submissions to TCRS have not been determined yet, so the content of the
-setcopyright entry may be subject to change.
+inherited from the material provided by the ACM.
 
 ## Getting started
 Simply clone this repository:
