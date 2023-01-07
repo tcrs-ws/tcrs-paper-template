@@ -6,23 +6,13 @@ The fictional author names and CCS concepts featured in this template are
 inherited from the material provided by the ACM.
 
 ## Getting started
-Simply clone this repository:
-```
-git clone https://github.com/tcrs-ws/tcrs-paper-template.git
-```
-Forking using the GitHub "fork" button is discouraged because this will prevent you from making your clone private.
+Simply click on the "Use this template" button to create a new repository based on this template.
 
 ### Building
 To compile the template, run `make`. 
 
 ### Cleaning
 To remove all the generated files, run `make clean`.
-
-### Optional: configure private repository on GitHub
-Should you want to push edits to your paper to a private repository, perform the following steps:
-1. Go to your GitHub page and create a new private repository **without any initialization**. Do not check the "Add a README" box, and do not specify a `.gitignore` template or license.
-2. Remove the original remote from your clone using `git remote rm origin`.
-3. Add your new repository as a remote by using `git remote add origin <URL>` where `<URL>` is something like `git@github.com:<username>/<repo-name>.git`. Note: running `git push` might prompt you to add the `--set-upstream origin main` flag.
 
 ### Optional: Changing the name of `main.tex`
 Should you want to change the main of the main LaTeX file, perform the following steps:
@@ -38,5 +28,5 @@ MAIN="<some-new-name>"
 3. Ensure that the pre-configured `.gitignore` file is properly configured. Specifically, ensure that your generated PDF called `<some-new-name>.pdf` is on the ignore list.
 
 ## Contributing
-The template and accompanying makefile are pretty bare bones. If you have
+This LaTeX template and accompanying makefile are pretty bare bones. If you have
 suggestions for improvements, please feel welcome to submit a PR.
